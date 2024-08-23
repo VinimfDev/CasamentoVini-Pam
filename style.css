@@ -47,7 +47,7 @@ main {
 button {
   border-radius: 10px;
   border: none;
-  height: 40px;
+  height: auto;
   background-color: #7B4AA0;
   color: bisque;
   font-size: 20px;
@@ -177,7 +177,7 @@ header nav a {
 .salao {
   border-radius: 10px;
   border: none;
-  height: 40px;
+  height: auto;
   color: bisque;
   font-size: 20px;
   font-family: Maname;
@@ -492,7 +492,7 @@ header nav a {
   width: 150px;
   font-size: 20px;
   background-color: #7B4AA0;
-}
+} 
 
 .Galeria {
   margin-top: 80px;
@@ -638,6 +638,7 @@ footer nav ul {
   margin-top: 10%;
 }
 
+
 /* CSS Específico para Telas Menores */
 @media only screen and (max-width: 600px) { 
   
@@ -671,8 +672,8 @@ footer nav ul {
 
   .container img {
     width: auto;
-    height: 33vh;
-    object-position: -1050px 10px;
+    height: 600px;
+    translate: -650px 10px;
     filter: brightness(0.45) opacity(0.95);
   }
 
@@ -709,6 +710,7 @@ footer nav ul {
   .salao {
     border-radius: 10px;
     height: auto;
+    width: 100%;
     font-size: 20px;
   }
 
