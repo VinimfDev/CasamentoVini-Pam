@@ -178,7 +178,7 @@ header nav a {
   border-radius: 10px;
   border: none;
   height: auto;
-  color: bisque;
+  color: white;
   font-size: 20px;
   font-family: Maname;
   text-decoration: none;
@@ -969,8 +969,18 @@ margin-left: 0;
 /* CSS Específico para Telas Menores */
 @media only screen and (max-width: 499px) { 
   
+
+  body {
+    margin: 0;
+    margin-top: 0;
+  }
  main {
   margin: 0 20px;
+ }
+
+ header {
+  margin: 0;
+  margin-top: 0;
  }
   header nav {
     gap: 5px;
